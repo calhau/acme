@@ -82,7 +82,7 @@ Bruno: Register
                     </div>
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
-                            <button type="submit" class="btn btn-primary">Registrar</button>
+                            <button type="submit" class="btn btn-primary">Registrar VITOR</button>
                         </div>
                     </div>
                 </form>

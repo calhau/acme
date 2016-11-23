@@ -1,4 +1,7 @@
 @extends('base')
+@section('browsertitle')
+Bruno: Login
+@stop
 
 @section('content')
         <div class="row">

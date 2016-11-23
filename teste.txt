@@ -1,0 +1,122 @@
+    1  ls
+    2  pwd
+    3  cd /vagrant/
+    4  ls
+    5  install.sh
+    6  sh install.sh 
+    7  exit
+    8  cd /vagrant/
+    9  ls
+   10  ls -l
+   11  cd ..
+   12  ls
+   13  cd vagrant/
+   14  ls -l
+   15  ls 
+   16  cd /vagrant/
+   17  ls
+   18  exit
+   19  pwd
+   20  cd ..
+   21  ls
+   22  pwd
+   23  cd
+   24  pwd
+   25  cd ..
+   26  pwd
+   27  cd ..
+   28  pwd
+   29  cd /vagrant/
+   30  pwd
+   31  ls
+   32  vi index.html
+   33  ls
+   34  vagrant share --http 8080
+   35  exit
+   36  cd /vagrant/
+   37  echo test
+   38  echo test > test.html
+   39  ls -l
+   40  exit
+   41  ls
+   42  ifconfig
+   43  exit
+   44  ls
+   45  pwd
+   46  cd /vagrant/
+   47  ls
+   48  php -v
+   49  php -a
+   50  composer
+   51  pwd
+   52  cd /vagrant/
+   53  ls
+   54  curl -sS https://getcomposer.org/installer | php
+   55  ls 
+   56  sudo mv composer.phar /usr/local/bin/composer
+   57  which composer
+   58  ls
+   59  pwd
+   60  composer init
+   61  ls -l
+   62  cd /etc/nginx/
+   63  ls -l
+   64  cd sites-available/
+   65  ls
+   66  cp default default.dist
+   67  sudo cp default default.dist
+   68  ls =l
+   69  ls
+   70  sudo vi default
+   71  cat default
+   72  sudo service nginx restart
+   73  cd /vagrant/
+   74  ls
+   75  pwd
+   76  composer require filp/whoops
+   77  ls
+   78  pwd
+   79  composer update
+   80  sudo vi /etc/nginx/sites-available/default
+   81  cat /etc/nginx/sites-available/default
+   82  sudo service nginx restart
+   83  cat /etc/nginx/sites-available/default
+   84  pwd
+   85  composer update
+   86  composer dumpautoload
+   87  ls -l
+   88  pwd
+   89  cd /vagrant/
+   90  ls -l
+   91  cd /vagrant/
+   92  ls
+   93  pwd
+   94  composer dumpautoload
+   95  vi /etc/nginx/sites-available/default
+   96  ls
+   97  ls -l
+   98  ls -la
+   99  pwd
+  100  composer require respect/validation
+  101  composer dumpautoload
+  102  pwd
+  103  ls
+  104  pwd
+  105  curl http://get.sensiolabs.org/php-cs-fixer.phar -o php-cs-fixer
+  106  ls
+  107  sudo chmod a+x php-cs-fixer
+  108  ls -l
+  109  sudo mv php-cs-fixer /usr/local/bin/php-cs-fixer
+  110  ls
+  111  cd src/
+  112  cd controllers/
+  113  ls -l
+  114  php-cs-fixer fix PageController.php --level=psr2
+  115  ls
+  116  dir
+  117  ls -l
+  118  pwd
+  119  cd /vagrant/
+  120  ls
+  121  cat history > teste.txt
+  122  history > teste.txt

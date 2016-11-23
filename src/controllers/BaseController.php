@@ -17,6 +17,11 @@ class BaseController
     //   ]);
     // }
 
+
+
+
+
+    //Codigo Utilizado para usar o BLADE Template
     protected $blade;
 
     public function __construct()

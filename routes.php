@@ -1,5 +1,6 @@
 <?php
 
+
 $router->map('GET', '/' , 'Acme\Controllers\PageController@getShowHomePage' , 'home');
 
 $router->map('GET', '/register' , 'Acme\Controllers\RegisterController@getShowRegisterPage' , 'register');
@@ -10,3 +11,7 @@ $router->map('GET', '/login' , 'Acme\Controllers\RegisterController@getShowLogin
 $router->map('GET', '/testdb' , 'Acme\Controllers\RegisterController@getTestDB' , 'testdb');
 
 $router->map('GET', '/testebruno' , 'Acme\Controllers\RegisterController@getTesteBruno' , 'testbruno');
+
+
+$router->map('GET', '/projeto' , 'Acme\Controllers\RegisterController@getShowProjetoPage' , 'projeto');
+$router->map('POST', '/projeto' , 'Acme\Controllers\RegisterController@postShowProjetoPage' , 'projeto_post');
