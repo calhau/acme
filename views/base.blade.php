@@ -10,11 +10,22 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/default.css" />
+    <link rel="stylesheet" href="/assets/css/default.date.css" />
+    <link rel="stylesheet" href="/assets/css/jquery-ui.min.css" />
     @yield('css')
 
+    <script type="text/javascript" src="/assets/js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery-ui.min.js"></script>
 
 
+    <script type="text/javascript" src="/assets/js/picker.js"></script>
+    <script type="text/javascript" src="/assets/js/picker.date.js"></script>
+    <script type="text/javascript" src="/assets/js/picker.time.js"></script>
+    <script type="text/javascript" src="/assets/js/legacy.js"></script>
+    <script type="text/javascript" src="/assets/js/main.js"></script>
 </head>
+
 
 <body>
 

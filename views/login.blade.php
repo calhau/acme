@@ -3,6 +3,15 @@
 Bruno: Login
 @stop
 
+@section('css')
+<style>
+  .red {
+    color:red;
+  }
+</style>
+
+@stop
+
 @section('content')
         <div class="row">
             <div class="col-md-2 "></div>
@@ -32,6 +41,7 @@ Bruno: Login
                 </form>
 
             </div>
-            <div class="col-md-2"></div>
+            <div class="col-md-2">
+            </div>
           </div>
 @stop

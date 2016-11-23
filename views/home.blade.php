@@ -42,6 +42,10 @@ Bruno: Register 2
     color:#707070;
   }
 
+  .rede {
+    color:red;
+  }
+
 </style>
 @stop
 

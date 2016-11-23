@@ -9,9 +9,9 @@
     <div class="row">
         <div class='col-sm-6'>
             <div class="form-group">
-                <div class='input-group date' id='datetimepicker1'>
+                <div class='input-group date datepicker' id='datetimepicker1'>
                     <input type='text' class="form-control" />
-                    <span class="input-group-addon">
+                    <span class="input-group-addon datepicker">
                         <span class="glyphicon glyphicon-calendar"></span>
                     </span>
                 </div>
@@ -19,18 +19,26 @@
         </div>
     </div>
 
-    <input type="button" action="onclick()" value="teste"/>
+    <div class="row">
+        <div class="col-md-12">
+            <script>
+            $(".datepicker").pickadate();
+            </script>
+        </div>
+
+    </div>
 
 
-    <script type="text/javascript">
-        $(function () {
-            $('#datetimepicker1').datetimepicker();
-        });
+  <button onclick="teste()">Click me</button>
+  @section('bottomjs')
+  <script>
+    $('h2').addClass('redes');
 
-        $(document).ready(function(){
-          $("input").click(function(){
-            alert("oi victor");
-            //$("#datetimepicker1").pickadate();
-            });
-        }); //this was missing
+    // function teste(){
+    //   document.write("alooo");
+    // };
+    //
+
+
     </script>
+  @stop
