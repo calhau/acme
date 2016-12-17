@@ -14,6 +14,9 @@ Bruno: Login
 
 @section('content')
         <div class="row">
+            <div class="col-md-12">
+              <h2>Eu estou aqui!</h2>
+            </div>
             <div class="col-md-2 "></div>
             <div class="col-md-8">
                 <h1>Log In</h1>

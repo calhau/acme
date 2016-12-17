@@ -12,9 +12,10 @@
        <div id="navbar" class="collapse navbar-collapse">
          <ul class="nav navbar-nav">
            <li class="active"><a href="/">Home</a></li>
-           <li><a href="/projeto">Projeto</a></li>
+           <li><a href="/projeto">Projeto</a>
+           </li>
            <li><a href="/register">Register</a></li>
-           <li><a href="/login">Login</a></li>
+           <li><a href="/login2">Login</a></li>
          </ul>
        </div><!--/.nav-collapse -->
      </div>
